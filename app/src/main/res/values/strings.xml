@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IconFontDemo</string>
+
+    <!-- IconFont字符定义 - 这些将被插件识别 -->
+    <string name="icon_home">&#xE88A;</string>
+    <string name="icon_search">&#xE8B6;</string>
+    <string name="icon_favorite">&#xE87D;</string>
+    <string name="icon_settings">&#xE8B8;</string>
+    <string name="icon_person">&#xE7FD;</string>
+    <string name="icon_add">&#xE145;</string>
+    <string name="icon_delete">&#xE872;</string>
+    <string name="icon_edit">&#xE3C9;</string>
+    <string name="icon_share">&#xE80D;</string>
+    <string name="icon_download">&#xE2C4;</string>
+    <string name="icon_upload">&#xE2C6;</string>
+    <string name="icon_play">&#xE037;</string>
+    <string name="icon_pause">&#xE034;</string>
+    <string name="icon_stop">&#xE047;</string>
+    <string name="icon_refresh">&#xE5D5;</string>
+
+    <!-- Material Icons 2 字体文件中的图标 -->
+    <string name="mat_icon_home">\uE88A</string>
+    <string name="mat_icon_menu">\uE5D2</string>
+    <string name="mat_icon_close">\uE5CD</string>
+    <string name="mat_icon_check">\uE5CA</string>
+
+    <!-- FontAwesome 字体文件中的图标 -->
+    <string name="fa_icon_heart">\uF004</string>
+    <string name="fa_icon_star">\uF005</string>
+    <string name="fa_icon_user">\uF007</string>
+    <string name="fa_icon_cog">\uF013</string>
+
+    <!-- 测试用的其他字符串 -->
+    <string name="hello_world">Hello World!</string>
+    <string name="demo_text">This is a demo text</string>
+</resources>

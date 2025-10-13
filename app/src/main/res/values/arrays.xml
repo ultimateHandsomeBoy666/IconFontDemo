@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 图标数组 - 这些@string/引用也将被插件识别 -->
+    <string-array name="navigation_icons">
+        <item>@string/icon_home</item>
+        <item>@string/icon_search</item>
+        <item>@string/icon_favorite</item>
+        <item>@string/icon_settings</item>
+        <item>@string/icon_person</item>
+    </string-array>
+
+    <!-- Material Icons数组 -->
+    <string-array name="material_icons_v2">
+        <item>@string/mat_icon_home</item>
+        <item>@string/mat_icon_menu</item>
+        <item>@string/mat_icon_close</item>
+        <item>@string/mat_icon_check</item>
+    </string-array>
+
+    <!-- FontAwesome图标数组 -->
+    <string-array name="fontawesome_icons">
+        <item>@string/fa_icon_heart</item>
+        <item>@string/fa_icon_star</item>
+        <item>@string/fa_icon_user</item>
+        <item>@string/fa_icon_cog</item>
+    </string-array>
+
+    <!-- 媒体控制图标 -->
+    <string-array name="media_control_icons">
+        <item>@string/icon_play</item>
+        <item>@string/icon_pause</item>
+        <item>@string/icon_stop</item>
+    </string-array>
+
+    <!-- 编辑操作图标 -->
+    <string-array name="edit_action_icons">
+        <item>@string/icon_add</item>
+        <item>@string/icon_delete</item>
+        <item>@string/icon_edit</item>
+        <item>@string/icon_share</item>
+    </string-array>
+
+    <!-- 文件操作图标 -->
+    <string-array name="file_operation_icons">
+        <item>@string/icon_download</item>
+        <item>@string/icon_upload</item>
+        <item>@string/icon_refresh</item>
+    </string-array>
+
+    <!-- 简单的图标名称数组 -->
+    <string-array name="icon_names">
+        <item>home</item>
+        <item>search</item>
+        <item>favorite</item>
+        <item>settings</item>
+    </string-array>
+</resources>
