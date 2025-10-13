@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IconFont Demo - 测试插件预览功能"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- XML中直接使用@string引用的IconFont案例 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. XML中直接使用@string/引用："
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Material Icons 字体示例 -->
+        <com.example.iconfontdemo.IconFontTextView
+            android:id="@+id/icon_home_xml"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="@string/icon_home"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="?attr/selectableItemBackground"
+            app:iconFont="material_icons"
+            android:layout_marginBottom="8dp" />
+
+        <com.example.iconfontdemo.IconFontTextView
+            android:id="@+id/icon_search_xml"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="@string/icon_search"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="?attr/selectableItemBackground"
+            app:iconFont="material_icons"
+            android:layout_marginBottom="8dp" />
+
+        <com.example.iconfontdemo.IconFontTextView
+            android:id="@+id/icon_favorite_xml"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="@string/icon_favorite"
+            android:textSize="24sp"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:background="?attr/selectableItemBackground"
+            app:iconFont="material_icons"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 更多Material Icons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/icon_settings"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/icon_person"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons"
+                android:layout_marginStart="8dp" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/icon_add"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/teal_700"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <!-- FontAwesome 示例 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. FontAwesome字体示例："
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/fa_icon_heart"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="font_awesome" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/fa_icon_star"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#FFD700"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="font_awesome"
+                android:layout_marginStart="8dp" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/fa_icon_user"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="font_awesome"
+                android:layout_marginStart="8dp" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/fa_icon_cog"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="font_awesome"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <!-- 通过代码设置的IconFont示例 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. 通过代码动态设置的图标："
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/icon_home_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/icon_settings_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons"
+                android:layout_marginStart="8dp" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/icon_favorite_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons"
+                android:layout_marginStart="8dp" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/icon_search_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <!-- FontAwesome 代码设置示例 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/fa_icon_heart_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:background="?attr/selectableItemBackground" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/fa_icon_star_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#FFD700"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <com.example.iconfontdemo.IconFontTextView
+                android:id="@+id/icon_add_code"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackground"
+                app:iconFont="material_icons"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <!-- 混合文本和图标 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. 图标与文字混合："
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.example.iconfontdemo.IconFontTextView
+            android:id="@+id/icon_combined_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="8dp"
+            app:iconFont="material_icons"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 普通TextView使用fontFamily -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. 使用fontFamily属性的TextView："
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/mat_icon_home"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/material_icons"
+                android:background="?attr/selectableItemBackground" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/mat_icon_menu"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/material_icons"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/mat_icon_close"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/material_icons"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/mat_icon_check"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/material_icons"
+                android:background="?attr/selectableItemBackground"
+                android:textColor="@color/teal_700"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 菜单项中使用@string/引用iconfont字符 - 这些也将被插件识别 -->
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/icon_home"
+        android:contentDescription="Home" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/icon_search"
+        android:contentDescription="Search" />
+
+    <item
+        android:id="@+id/menu_favorite"
+        android:title="@string/icon_favorite"
+        android:contentDescription="Favorite" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/icon_settings"
+        android:contentDescription="Settings" />
+
+    <!-- 子菜单中也包含图标引用 -->
+    <item
+        android:id="@+id/menu_tools"
+        android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/menu_add"
+                android:title="@string/icon_add"
+                android:contentDescription="Add" />
+
+            <item
+                android:id="@+id/menu_edit"
+                android:title="@string/icon_edit"
+                android:contentDescription="Edit" />
+
+            <item
+                android:id="@+id/menu_delete"
+                android:title="@string/icon_delete"
+                android:contentDescription="Delete" />
+        </menu>
+    </item>
+
+    <!-- 媒体控制菜单 -->
+    <item
+        android:id="@+id/menu_media"
+        android:title="Media">
+        <menu>
+            <item
+                android:id="@+id/menu_play"
+                android:title="@string/icon_play"
+                android:contentDescription="Play" />
+
+            <item
+                android:id="@+id/menu_pause"
+                android:title="@string/icon_pause"
+                android:contentDescription="Pause" />
+
+            <item
+                android:id="@+id/menu_stop"
+                android:title="@string/icon_stop"
+                android:contentDescription="Stop" />
+        </menu>
+    </item>
+
+</menu>

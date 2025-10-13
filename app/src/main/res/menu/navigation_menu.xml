@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 导航菜单中使用FontAwesome图标 -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_heart"
+            android:title="@string/fa_icon_heart"
+            android:contentDescription="Favorites" />
+
+        <item
+            android:id="@+id/nav_star"
+            android:title="@string/fa_icon_star"
+            android:contentDescription="Starred" />
+
+        <item
+            android:id="@+id/nav_user"
+            android:title="@string/fa_icon_user"
+            android:contentDescription="Profile" />
+
+        <item
+            android:id="@+id/nav_cog"
+            android:title="@string/fa_icon_cog"
+            android:contentDescription="Settings" />
+    </group>
+
+    <!-- Material Icons v2 菜单项 -->
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_mat_home"
+            android:title="@string/mat_icon_home"
+            android:contentDescription="Home" />
+
+        <item
+            android:id="@+id/nav_mat_menu"
+            android:title="@string/mat_icon_menu"
+            android:contentDescription="Menu" />
+
+        <item
+            android:id="@+id/nav_mat_close"
+            android:title="@string/mat_icon_close"
+            android:contentDescription="Close" />
+
+        <item
+            android:id="@+id/nav_mat_check"
+            android:title="@string/mat_icon_check"
+            android:contentDescription="Done" />
+    </group>
+
+</menu>

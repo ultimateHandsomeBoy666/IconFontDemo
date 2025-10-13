@@ -1,0 +1,31 @@
+<resources>
+    <!-- AAR库中的IconFont字符定义 - 这些也将被插件识别 -->
+
+    <!-- Feather Icons 字体文件中的图标 -->
+    <string name="lib_icon_activity">&#xE7EE;</string>
+    <string name="lib_icon_airplay">&#xE055;</string>
+    <string name="lib_icon_alert_circle">&#xE019;</string>
+    <string name="lib_icon_alert_triangle">&#xE002;</string>
+    <string name="lib_icon_archive">&#xE149;</string>
+    <string name="lib_icon_arrow_down">&#xE5DB;</string>
+    <string name="lib_icon_arrow_left">&#xE5E0;</string>
+    <string name="lib_icon_arrow_right">&#xE5E1;</string>
+    <string name="lib_icon_arrow_up">&#xE5D8;</string>
+    <string name="lib_icon_battery">&#xE1A4;</string>
+
+    <!-- Ionicons 字体文件中的图标 -->
+    <string name="lib_ionicon_home">\uF015</string>
+    <string name="lib_ionicon_user">\uF007</string>
+    <string name="lib_ionicon_search">\uF002</string>
+    <string name="lib_ionicon_settings">\uF013</string>
+    <string name="lib_ionicon_heart">\uF004</string>
+    <string name="lib_ionicon_camera">\uF030</string>
+    <string name="lib_ionicon_location">\uF041</string>
+    <string name="lib_ionicon_phone">\uF095</string>
+    <string name="lib_ionicon_mail">\uF003</string>
+    <string name="lib_ionicon_calendar">\uF073</string>
+
+    <!-- 库中的其他字符串 -->
+    <string name="lib_name">IconFont Library</string>
+    <string name="lib_version">1.0.0</string>
+</resources>

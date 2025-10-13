@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 专门的图标字符串资源文件 - 测试插件在不同文件中的识别能力 -->
+
+    <!-- 状态图标 -->
+    <string name="icon_online">&#xE86C;</string>
+    <string name="icon_offline">&#xE86D;</string>
+    <string name="icon_loading">&#xE863;</string>
+    <string name="icon_error">&#xE000;</string>
+    <string name="icon_success">&#xE86E;</string>
+    <string name="icon_warning">&#xE002;</string>
+
+    <!-- 通信图标 -->
+    <string name="icon_call">&#xE0B0;</string>
+    <string name="icon_message">&#xE0B7;</string>
+    <string name="icon_email">&#xE0BE;</string>
+    <string name="icon_notification">&#xE7F4;</string>
+
+    <!-- 文档图标 -->
+    <string name="icon_document">&#xE873;</string>
+    <string name="icon_folder">&#xE2C7;</string>
+    <string name="icon_file">&#xE226;</string>
+    <string name="icon_image">&#xE3F4;</string>
+    <string name="icon_video">&#xE04B;</string>
+    <string name="icon_music">&#xE405;</string>
+
+    <!-- 网络图标 -->
+    <string name="icon_wifi">&#xE63E;</string>
+    <string name="icon_bluetooth">&#xE1A7;</string>
+    <string name="icon_network">&#xE8BA;</string>
+    <string name="icon_cloud">&#xE2BD;</string>
+
+    <!-- 位置图标 -->
+    <string name="icon_location">&#xE0C8;</string>
+    <string name="icon_map">&#xE0C7;</string>
+    <string name="icon_navigation">&#xE55C;</string>
+    <string name="icon_gps">&#xE1C3;</string>
+
+    <!-- 时间图标 -->
+    <string name="icon_clock">&#xE192;</string>
+    <string name="icon_timer">&#xE425;</string>
+    <string name="icon_calendar">&#xE935;</string>
+    <string name="icon_schedule">&#xE8B5;</string>
+
+    <!-- 购物图标 -->
+    <string name="icon_cart">&#xE8CC;</string>
+    <string name="icon_store">&#xE8D1;</string>
+    <string name="icon_payment">&#xE8C4;</string>
+    <string name="icon_price">&#xE263;</string>
+
+    <!-- 社交图标 -->
+    <string name="icon_like">&#xE8DC;</string>
+    <string name="icon_comment">&#xE0B9;</string>
+    <string name="icon_share_social">&#xE80D;</string>
+    <string name="icon_follow">&#xE7EE;</string>
+
+    <!-- 更多Material Icons变体 - 使用不同的格式 -->
+    <string name="mat2_home">\uE88A</string>
+    <string name="mat2_search">\uE8B6</string>
+    <string name="mat2_favorite">\uE87D</string>
+    <string name="mat2_settings">\uE8B8</string>
+    <string name="mat2_person">\uE7FD</string>
+
+    <!-- 混合格式的图标 -->
+    <string name="mixed_icon_1">&#xE145; Add</string>
+    <string name="mixed_icon_2">Delete &#xE872;</string>
+    <string name="mixed_icon_3">&#xE3C9; Edit &#xE3C9;</string>
+
+</resources>
