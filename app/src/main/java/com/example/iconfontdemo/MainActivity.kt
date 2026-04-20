@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         // 条件性图标选择
         val isPlaying = false
         val playPauseIcon = if (isPlaying) {
-            getString(R.string.icon_pause) // 这个R.string引用也会被识别
+            getString(R.string.aar_fa_refresh) // 这个R.string引用也会被识别
         } else {
             getString(R.string.icon_play)  // 这个也是
         }
@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
         // List中的R.string引用
         val iconList = listOf(
             getString(R.string.icon_refresh),
-            getString(R.string.mat_icon_home),
+            getString(R.string.icon_delete),
             getString(R.string.mat_icon_menu),
             getString(R.string.mat_icon_close),
             getString(R.string.mat_icon_check)
@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         // 函数调用中的R.string引用
-        setupCustomIcon(getString(R.string.fa_icon_heart))
+        setupCustomIcon(getString(R.string.fa_icon_cog))
         updateIconDisplay(getString(R.string.fa_icon_star))
 
         // 三元运算符中的R.string引用

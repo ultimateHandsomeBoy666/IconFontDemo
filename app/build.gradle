@@ -44,6 +44,10 @@ dependencies {
     // Local AAR dependency with iconfont
     implementation project(':iconfont-lib')
 
+    // 远程 AAR 依赖（含 iconfont TTF，用于测试插件的 AAR 扫描能力）
+    implementation 'com.mikepenz:fontawesome-typeface:5.13.3.1-kotlin'
+    implementation 'com.mikepenz:google-material-typeface:4.0.0.3-kotlin'
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

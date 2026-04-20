@@ -1,0 +1,34 @@
+<resources>
+    <!-- ===================================================== -->
+    <!-- AAR 依赖中的 IconFont 引用测试                          -->
+    <!-- 用于验证 IconFontViewer 插件对 AAR 字体的扫描和预览能力     -->
+    <!-- ===================================================== -->
+
+    <!-- FontAwesome 5 Solid (来自 com.mikepenz:fontawesome-typeface AAR) -->
+    <string name="aar_fa_music">&#xF001;</string>
+    <string name="aar_fa_search">&#xF002;</string>
+    <string name="aar_fa_heart">&#xF004;</string>
+    <string name="aar_fa_user">&#xF007;</string>
+    <string name="aar_fa_check">&#xF00C;</string>
+    <string name="aar_fa_close">&#xF00D;</string>
+    <string name="aar_fa_cog">&#xF013;</string>
+    <string name="aar_fa_home">&#xF015;</string>
+    <string name="aar_fa_download">&#xF01A;</string>
+    <string name="aar_fa_refresh">&#xF01E;</string>
+    <string name="aar_fa_plus">&#xF067;</string>
+    <string name="aar_fa_minus">&#xF068;</string>
+
+    <!-- Google Material Filled (来自 com.mikepenz:google-material-typeface AAR) -->
+    <string name="aar_gm_3d_rotation">&#xE000;</string>
+    <string name="aar_gm_accessibility">&#xE001;</string>
+    <string name="aar_gm_account_balance">&#xE004;</string>
+    <string name="aar_gm_alarm">&#xE009;</string>
+    <string name="aar_gm_alarm_add">&#xE00A;</string>
+    <string name="aar_gm_alarm_off">&#xE00B;</string>
+    <string name="aar_gm_alarm_on">&#xE00C;</string>
+    <string name="aar_gm_all_out">&#xE00D;</string>
+    <string name="aar_gm_android">&#xE00E;</string>
+    <string name="aar_gm_announcement">&#xE00F;</string>
+    <string name="aar_gm_apps">&#xE010;</string>
+    <string name="aar_gm_archive">&#xE011;</string>
+</resources>
