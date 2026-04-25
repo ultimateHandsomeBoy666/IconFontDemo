@@ -2,7 +2,7 @@
 <resources>
     <!-- 图标数组 - 这些@string/引用也将被插件识别 -->
     <string-array name="navigation_icons">
-        <item>@string/icon_home</item>
+        <item>@string/aar_fa_music</item>
         <item>@string/icon_search</item>
         <item>@string/icon_favorite</item>
         <item>@string/icon_settings</item>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Feather Icons 字体中的图标 (U+E900 ~ U+E9FF) -->
+    <string name="feather_activity">&#xE900;</string>
+    <string name="feather_airplay">&#xE901;</string>
+    <string name="feather_alert_circle">&#xE902;</string>
+    <string name="feather_alert_octagon">&#xE903;</string>
+    <string name="feather_alert_triangle">&#xE904;</string>
+    <string name="feather_align_center">&#xE905;</string>
+    <string name="feather_align_justify">&#xE906;</string>
+    <string name="feather_align_left">&#xE907;</string>
+    <string name="feather_anchor">&#xE909;</string>
+    <string name="feather_aperture">&#xE90A;</string>
+    <string name="feather_archive">&#xE90B;</string>
+    <string name="feather_arrow_down">&#xE90F;</string>
+    <string name="feather_arrow_left">&#xE911;</string>
+    <string name="feather_arrow_right">&#xE913;</string>
+    <string name="feather_arrow_up">&#xE917;</string>
+    <string name="feather_at_sign">&#xE919;</string>
+    <string name="feather_award">&#xE91A;</string>
+    <string name="feather_bar_chart">&#xE91B;</string>
+    <string name="feather_battery">&#xE91E;</string>
+    <string name="feather_bell">&#xE921;</string>
+    <string name="feather_bluetooth">&#xE922;</string>
+    <string name="feather_bold">&#xE923;</string>
+    <string name="feather_book">&#xE924;</string>
+    <string name="feather_bookmark">&#xE925;</string>
+</resources>
