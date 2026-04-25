@@ -55,7 +55,7 @@
             android:id="@+id/icon_favorite_xml"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:text="@string/icon_favorite"
+            android:text="@string/aar_fa_home"
             android:textSize="24sp"
             android:textColor="@color/purple_500"
             android:gravity="center"
@@ -73,7 +73,7 @@
             <com.example.iconfontdemo.IconFontTextView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:text="@string/icon_settings"
+                android:text="@string/feather_activity"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:background="?attr/selectableItemBackground"

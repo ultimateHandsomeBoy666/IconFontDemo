@@ -22,12 +22,10 @@
     <string name="aar_gm_3d_rotation">&#xE000;</string>
     <string name="aar_gm_accessibility">&#xE001;</string>
     <string name="aar_gm_account_balance">&#xE004;</string>
-    <string name="aar_gm_alarm">&#xE009;</string>
     <string name="aar_gm_alarm_add">&#xE00A;</string>
     <string name="aar_gm_alarm_off">&#xE00B;</string>
     <string name="aar_gm_alarm_on">&#xE00C;</string>
     <string name="aar_gm_all_out">&#xE00D;</string>
-    <string name="aar_gm_android">&#xE00E;</string>
     <string name="aar_gm_announcement">&#xE00F;</string>
     <string name="aar_gm_apps">&#xE010;</string>
     <string name="aar_gm_archive">&#xE011;</string>

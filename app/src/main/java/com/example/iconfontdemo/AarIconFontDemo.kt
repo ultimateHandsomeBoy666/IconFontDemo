@@ -39,12 +39,12 @@ object AarIconFontDemo {
         "3d_rotation" to R.string.aar_gm_3d_rotation,
         "accessibility" to R.string.aar_gm_accessibility,
         "account_balance" to R.string.aar_gm_account_balance,
-        "alarm" to R.string.aar_gm_alarm,
+        "alarm" to R.string.aar_gm_alarm_on,
         "alarm_add" to R.string.aar_gm_alarm_add,
         "alarm_off" to R.string.aar_gm_alarm_off,
         "alarm_on" to R.string.aar_gm_alarm_on,
         "all_out" to R.string.aar_gm_all_out,
-        "android" to R.string.aar_gm_android,
+        "android" to R.string.aar_fa_check,
         "announcement" to R.string.aar_gm_announcement,
         "apps" to R.string.aar_gm_apps,
         "archive" to R.string.aar_gm_archive,
@@ -59,17 +59,15 @@ object AarIconFontDemo {
         R.string.aar_fa_home,
         R.string.aar_fa_cog,
         // Google Material
-        R.string.aar_gm_android,
         R.string.aar_gm_apps,
         R.string.aar_gm_archive,
-        R.string.aar_gm_alarm,
     )
 
     fun selectIcon(useFontAwesome: Boolean): Int {
         return if (useFontAwesome) {
             R.string.aar_fa_heart
         } else {
-            R.string.aar_gm_android
+            R.string.aar_fa_home
         }
     }
 }
