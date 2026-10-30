@@ -38,7 +38,7 @@ class IconFontManager(private val context: Context) {
      */
     fun getMaterialIcons2(): Map<String, String> {
         return mapOf(
-            "mat_home" to context.getString(R.string.mat_icon_home),
+            "mat_home" to context.getString(R.string.aar_fa_close),
             "mat_menu" to context.getString(R.string.mat_icon_menu),
             "mat_close" to context.getString(R.string.mat_icon_close),
             "mat_check" to context.getString(R.string.mat_icon_check)

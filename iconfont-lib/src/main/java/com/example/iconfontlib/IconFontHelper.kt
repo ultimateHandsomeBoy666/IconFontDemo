@@ -94,7 +94,7 @@ object IconFontHelper {
             "lib_archive" -> context.getString(R.string.lib_icon_archive)
             "lib_arrow_down" -> context.getString(R.string.lib_icon_arrow_down)
             "lib_arrow_left" -> context.getString(R.string.lib_icon_arrow_left)
-            "lib_arrow_right" -> context.getString(R.string.lib_icon_arrow_right)
+            "lib_arrow_right" -> context.getString(R.string.lib_ionicon_mail)
             "lib_arrow_up" -> context.getString(R.string.lib_icon_arrow_up)
             "lib_battery" -> context.getString(R.string.lib_icon_battery)
             else -> null
