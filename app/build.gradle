@@ -41,8 +41,14 @@ dependencies {
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-    // Local AAR dependency with iconfont
+    // Source-module baseline; its probe codepoints differ from every binary fixture.
     implementation project(':iconfont-lib')
+
+    implementation 'com.example.iconfontfixtures:path-fixtures:1.0.0'
+    implementation 'com.example.iconfontfixtures:standalone-fonts:1.0.0'
+    // Both wrappers depend on leaf-fonts; do not add a direct leaf-fonts dependency.
+    implementation 'com.example.iconfontfixtures:wrapper-a:1.0.0'
+    implementation 'com.example.iconfontfixtures:wrapper-b:1.0.0'
 
     // 远程 AAR 依赖（含 iconfont TTF，用于测试插件的 AAR 扫描能力）
     implementation 'com.mikepenz:fontawesome-typeface:5.13.3.1-kotlin'

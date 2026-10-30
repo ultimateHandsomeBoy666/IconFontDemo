@@ -1,0 +1,482 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "source_baseline",
+      "artifact": "source",
+      "entry": "iconfont-lib/src/main/assets/test-probes/icon_probe_source_baseline.ttf",
+      "codepoints": [
+        60010,
+        60015
+      ],
+      "family": "IconFontProbe_source_baseline",
+      "resources": [
+        "probe_source_baseline_home",
+        "probe_source_baseline_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "iconfont-lib/src/main/assets/test-probes/icon_probe_source_baseline.ttf"
+    },
+    {
+      "id": "aar_font",
+      "artifact": "path-fixtures",
+      "entry": "res/font/icon_probe_font.ttf",
+      "codepoints": [
+        60026,
+        60027
+      ],
+      "family": "IconFontProbe_aar_font",
+      "resources": [
+        "probe_aar_font_home",
+        "probe_aar_font_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/res/font/icon_probe_font.ttf"
+    },
+    {
+      "id": "aar_qualified",
+      "artifact": "path-fixtures",
+      "entry": "res/font-v26/icon_probe_qualified.ttf",
+      "codepoints": [
+        60028,
+        60029
+      ],
+      "family": "IconFontProbe_aar_qualified",
+      "resources": [
+        "probe_aar_qualified_home",
+        "probe_aar_qualified_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/res/font-v26/icon_probe_qualified.ttf"
+    },
+    {
+      "id": "aar_raw",
+      "artifact": "path-fixtures",
+      "entry": "res/raw/icon_probe_raw.ttf",
+      "codepoints": [
+        60031,
+        60034
+      ],
+      "family": "IconFontProbe_aar_raw",
+      "resources": [
+        "probe_aar_raw_home",
+        "probe_aar_raw_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/res/raw/icon_probe_raw.ttf"
+    },
+    {
+      "id": "assets_root",
+      "artifact": "path-fixtures",
+      "entry": "assets/icon_probe_assets_root.ttf",
+      "codepoints": [
+        60035,
+        60036
+      ],
+      "family": "IconFontProbe_assets_root",
+      "resources": [
+        "probe_assets_root_home",
+        "probe_assets_root_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/icon_probe_assets_root.ttf"
+    },
+    {
+      "id": "assets_deep",
+      "artifact": "path-fixtures",
+      "entry": "assets/custom/a/b/icon_probe_assets_deep.ttf",
+      "codepoints": [
+        60037,
+        60038
+      ],
+      "family": "IconFontProbe_assets_deep",
+      "resources": [
+        "probe_assets_deep_home",
+        "probe_assets_deep_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/custom/a/b/icon_probe_assets_deep.ttf"
+    },
+    {
+      "id": "classes_root",
+      "artifact": "path-fixtures",
+      "entry": "classes.jar!/icon_probe_classes_root.ttf",
+      "codepoints": [
+        60040,
+        60041
+      ],
+      "family": "IconFontProbe_classes_root",
+      "resources": [
+        "probe_classes_root_home",
+        "probe_classes_root_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/classes.jar!/icon_probe_classes_root.ttf"
+    },
+    {
+      "id": "classes_deep",
+      "artifact": "path-fixtures",
+      "entry": "classes.jar!/org/example/custom/icon_probe_classes_deep.ttf",
+      "codepoints": [
+        60042,
+        60043
+      ],
+      "family": "IconFontProbe_classes_deep",
+      "resources": [
+        "probe_classes_deep_home",
+        "probe_classes_deep_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/classes.jar!/org/example/custom/icon_probe_classes_deep.ttf"
+    },
+    {
+      "id": "aar_extra_jar",
+      "artifact": "path-fixtures",
+      "entry": "libs/extra-fonts.jar!/custom/icon_probe_extra.ttf",
+      "codepoints": [
+        60044,
+        60047
+      ],
+      "family": "IconFontProbe_aar_extra_jar",
+      "resources": [
+        "probe_aar_extra_jar_home",
+        "probe_aar_extra_jar_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/libs/extra-fonts.jar!/custom/icon_probe_extra.ttf"
+    },
+    {
+      "id": "nested_jar",
+      "artifact": "path-fixtures",
+      "entry": "assets/payload/outer.jar!/libs/inner.jar!/deep/icon_probe_nested.ttf",
+      "codepoints": [
+        60048,
+        60049
+      ],
+      "family": "IconFontProbe_nested_jar",
+      "resources": [
+        "probe_nested_jar_home",
+        "probe_nested_jar_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/payload/outer.jar!/libs/inner.jar!/deep/icon_probe_nested.ttf"
+    },
+    {
+      "id": "nested_after",
+      "artifact": "path-fixtures",
+      "entry": "assets/payload/outer.jar!/after/icon_probe_after.ttf",
+      "codepoints": [
+        60050,
+        60051
+      ],
+      "family": "IconFontProbe_nested_after",
+      "resources": [
+        "probe_nested_after_home",
+        "probe_nested_after_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/payload/outer.jar!/after/icon_probe_after.ttf"
+    },
+    {
+      "id": "nested_aar",
+      "artifact": "path-fixtures",
+      "entry": "assets/payload/inner.aar!/custom/icon_probe_nested_aar.ttf",
+      "codepoints": [
+        60052,
+        60053
+      ],
+      "family": "IconFontProbe_nested_aar",
+      "resources": [
+        "probe_nested_aar_home",
+        "probe_nested_aar_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/payload/inner.aar!/custom/icon_probe_nested_aar.ttf"
+    },
+    {
+      "id": "aar_custom",
+      "artifact": "path-fixtures",
+      "entry": "custom/deep/icon_probe_custom.ttf",
+      "codepoints": [
+        60055,
+        60060
+      ],
+      "family": "IconFontProbe_aar_custom",
+      "resources": [
+        "probe_aar_custom_home",
+        "probe_aar_custom_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/custom/deep/icon_probe_custom.ttf"
+    },
+    {
+      "id": "uppercase",
+      "artifact": "path-fixtures",
+      "entry": "assets/case/icon_probe_upper.TTF",
+      "codepoints": [
+        60062,
+        60065
+      ],
+      "family": "IconFontProbe_uppercase",
+      "resources": [
+        "probe_uppercase_home",
+        "probe_uppercase_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/case/icon_probe_upper.TTF"
+    },
+    {
+      "id": "unicode_path",
+      "artifact": "path-fixtures",
+      "entry": "assets/custom folder/中文/icon_probe_unicode.ttf",
+      "codepoints": [
+        60068,
+        60069
+      ],
+      "family": "IconFontProbe_unicode_path",
+      "resources": [
+        "probe_unicode_path_home",
+        "probe_unicode_path_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/custom folder/中文/icon_probe_unicode.ttf"
+    },
+    {
+      "id": "same_name_a",
+      "artifact": "path-fixtures",
+      "entry": "assets/a/icon_shared.ttf",
+      "codepoints": [
+        60084,
+        60085
+      ],
+      "family": "IconFontProbe_same_name_a",
+      "resources": [
+        "probe_same_name_a_home",
+        "probe_same_name_a_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/a/icon_shared.ttf"
+    },
+    {
+      "id": "same_name_b",
+      "artifact": "path-fixtures",
+      "entry": "assets/b/icon_shared.ttf",
+      "codepoints": [
+        60086,
+        60087
+      ],
+      "family": "IconFontProbe_same_name_b",
+      "resources": [
+        "probe_same_name_b_home",
+        "probe_same_name_b_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/b/icon_shared.ttf"
+    },
+    {
+      "id": "manual_enable",
+      "artifact": "path-fixtures",
+      "entry": "assets/custom/plainface.ttf",
+      "codepoints": [
+        60088,
+        60089
+      ],
+      "family": "IconFontProbe_manual_enable",
+      "resources": [
+        "probe_manual_enable_home",
+        "probe_manual_enable_search"
+      ],
+      "default_enabled": false,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/custom/plainface.ttf"
+    },
+    {
+      "id": "library_resource",
+      "artifact": "path-fixtures",
+      "entry": "assets/library/icon_probe_library_resource.ttf",
+      "codepoints": [
+        60090,
+        60091
+      ],
+      "family": "IconFontProbe_library_resource",
+      "resources": [
+        "probe_library_resource_home",
+        "probe_library_resource_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar!/assets/library/icon_probe_library_resource.ttf"
+    },
+    {
+      "id": "jar_root",
+      "artifact": "standalone-fonts",
+      "entry": "icon_probe_jar_root.ttf",
+      "codepoints": [
+        60092,
+        60093
+      ],
+      "family": "IconFontProbe_jar_root",
+      "resources": [
+        "probe_jar_root_home",
+        "probe_jar_root_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/standalone-fonts/1.0.0/standalone-fonts-1.0.0.jar!/icon_probe_jar_root.ttf"
+    },
+    {
+      "id": "jar_deep",
+      "artifact": "standalone-fonts",
+      "entry": "org/example/deep/icon_probe_jar_deep.ttf",
+      "codepoints": [
+        60094,
+        60095
+      ],
+      "family": "IconFontProbe_jar_deep",
+      "resources": [
+        "probe_jar_deep_home",
+        "probe_jar_deep_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/standalone-fonts/1.0.0/standalone-fonts-1.0.0.jar!/org/example/deep/icon_probe_jar_deep.ttf"
+    },
+    {
+      "id": "transitive",
+      "artifact": "leaf-fonts",
+      "entry": "custom/icon_probe_transitive.ttf",
+      "codepoints": [
+        60096,
+        60097
+      ],
+      "family": "IconFontProbe_transitive",
+      "resources": [
+        "probe_transitive_home",
+        "probe_transitive_search"
+      ],
+      "default_enabled": true,
+      "glyphs": [
+        "home",
+        "search"
+      ],
+      "path": "fixtures/repository/com/example/iconfontfixtures/leaf-fonts/1.0.0/leaf-fonts-1.0.0.jar!/custom/icon_probe_transitive.ttf"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "path-fixtures",
+      "path": "fixtures/repository/com/example/iconfontfixtures/path-fixtures/1.0.0/path-fixtures-1.0.0.aar",
+      "sha256": "60e74b5dfa59061fdf66f61aeec96022bd17fcf1e31e33a0876b39fe31483f52"
+    },
+    {
+      "id": "standalone-fonts",
+      "path": "fixtures/repository/com/example/iconfontfixtures/standalone-fonts/1.0.0/standalone-fonts-1.0.0.jar",
+      "sha256": "54805e67d8a37660eafc3a9ed9252efbaf4a2e9b48a3f8e9ff534777c115bc79"
+    },
+    {
+      "id": "leaf-fonts",
+      "path": "fixtures/repository/com/example/iconfontfixtures/leaf-fonts/1.0.0/leaf-fonts-1.0.0.jar",
+      "sha256": "33af90f26d8eacd8e52da1e2d0d0ddf497fea4501376aeb0cc930fdb43ef3415"
+    },
+    {
+      "id": "wrapper-a",
+      "path": "fixtures/repository/com/example/iconfontfixtures/wrapper-a/1.0.0/wrapper-a-1.0.0.jar",
+      "sha256": "227bd21949f99d273930ab839e91dafb894c7c921d12335489a4e316ae4562f3"
+    },
+    {
+      "id": "wrapper-b",
+      "path": "fixtures/repository/com/example/iconfontfixtures/wrapper-b/1.0.0/wrapper-b-1.0.0.jar",
+      "sha256": "227bd21949f99d273930ab839e91dafb894c7c921d12335489a4e316ae4562f3"
+    }
+  ],
+  "legacy_fonts": [
+    "app/src/main/assets/fonts/fontawesome.ttf",
+    "app/src/main/assets/fonts/material_icons.ttf",
+    "app/src/main/res/font/material_icons.ttf",
+    "iconfont-lib/src/main/assets/fonts/feather_icons.ttf",
+    "iconfont-lib/src/main/res/font/feather_icons.ttf"
+  ],
+  "corrupt_font": "assets/errors/icon_probe_corrupt.ttf",
+  "source_font": "app/src/main/assets/fonts/material_icons.ttf",
+  "provenance": "Original font outlines and license records retained; cmap and family names replaced for isolation."
+}

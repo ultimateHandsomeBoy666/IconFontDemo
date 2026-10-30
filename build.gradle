@@ -7,6 +7,10 @@ plugins {
 
 allprojects {
     repositories {
+        maven {
+            url = uri(rootProject.file('fixtures/repository'))
+            content { includeGroup 'com.example.iconfontfixtures' }
+        }
         google()
         mavenCentral()
         // Add local repository for AAR dependencies

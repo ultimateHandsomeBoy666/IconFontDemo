@@ -2,6 +2,8 @@
 
 这个Android项目是专门为测试 `IconFontViewer` IDEA/Android Studio 插件而创建的。
 
+新增的 22 组隔离 library font 用例保留源码模块基线，并通过本地 Maven 仓库引入真正的 AAR/JAR、嵌套归档和传递依赖。每组字体使用专属码点，详见 [测试说明](docs/library-font-tests.md) 和 `fixtures/library-font-cases.json`。
+
 ## 项目目的
 
 测试 `IconFontViewer` 插件在以下场景中的图标预览功能：
